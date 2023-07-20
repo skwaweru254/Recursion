@@ -24,7 +24,19 @@ public class Main {
 
     }
     static void working(){
-        System.out.println("Working Method");
+        System.out.println("Working Method\n");
+        adding();
+
+
+    }
+    static void adding(){
+        System.out.println("Default Adding Method\n");
+        adding(9);
+
+
+    }
+    static void adding(int w){
+        System.out.println("Parameterized Adding Method. Value is :"+ w);
 
 
     }
