@@ -10,6 +10,8 @@ public class Recursion {
 
     static void print(int z){
 
+        //Base condition to prevent stackoverflow error
+
         if (z==100){
             System.out.println(z);
             return;
