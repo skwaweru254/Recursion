@@ -31,7 +31,7 @@ public class Main {
     }
     static void adding(){
         System.out.println("Default Adding Method\n");
-        adding(9);
+        adding(7);
 
 
     }
