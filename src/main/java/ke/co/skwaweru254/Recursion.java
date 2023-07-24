@@ -8,16 +8,19 @@ public class Recursion {
 
     }
 
-    static void print(int z){
+    static int print(int z){
 
         //Base condition to prevent stackoverflow error
 
         if (z==100){
+
             System.out.println(z);
-            return;
+                                                                                                                                    //            System.out.println(z);
+            return z;
         }
 
         System.out.println(z);
-        print(z+1);//infinity printing and ca
+
+        return print(z+1);
     }
 }
