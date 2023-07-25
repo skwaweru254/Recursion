@@ -1,6 +1,6 @@
-package ke.co.skwaweru254;
+package ke.co.skwaweru254.Examples;
 
-public class Recursion {
+public class B {
 
     public static void main(String[] args) {
 
@@ -15,7 +15,7 @@ public class Recursion {
         if (z==100){
 
             System.out.println(z);
-                                                                                                                                    //            System.out.println(z);
+            //            System.out.println(z);
             return z;
         }
 
@@ -24,3 +24,4 @@ public class Recursion {
         return print(z+1);
     }
 }
+

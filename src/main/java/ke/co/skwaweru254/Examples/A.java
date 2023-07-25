@@ -1,7 +1,6 @@
-package ke.co.skwaweru254;
+package ke.co.skwaweru254.Examples;
 
-public class RecursionExample {
-
+public class A {
     public static void main(String[] args) {
 
         int count = add(3);
@@ -24,3 +23,4 @@ public class RecursionExample {
 
 
 }
+
