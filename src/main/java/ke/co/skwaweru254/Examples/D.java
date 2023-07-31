@@ -14,7 +14,7 @@ public class D {
     }
 
     public static void main(String[] args) {
-        int count=7;
+        int count=5;
         System.out.print(n0+" "+n1);//printing 0 and 1
         fibonacci(count-1);//n-2 because 2 numbers are already printed
     }
